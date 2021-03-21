@@ -1,0 +1,48 @@
+.drop-down-container {
+  width: 300px;
+  position: absolute;
+  left: 15px;
+}
+
+.drop-down-width {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.arrow-position {
+  float: right;
+}
+.drop-down-item {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  height: 30px;
+  display: flex;
+  padding-left: 15px;
+}
+
+.select-icon {
+  padding-left: 10px;
+  padding-top: 4px;
+  flex: 0;
+}
+
+.list-overflow {
+  overflow-y: scroll;
+  height: 150px;
+  border-bottom: 1px solid black;
+}
+
+.display-selection {
+  border: 1px solid black;
+  height: 20px;
+  min-width: 50px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 3px;
+}
